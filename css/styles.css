@@ -35,7 +35,7 @@ html {
   font-family: var(--body-font);
   font-size: 10px;
   color: var(--body-font-color);
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
 }
 
 body {
@@ -484,7 +484,7 @@ footer .container {
 }
 
 .footer-info p {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   line-height: 2rem;
 }
 
@@ -495,6 +495,11 @@ footer .container {
 
 .footer-info div:last-child {
   margin-bottom: 0;
+}
+
+/* Other Header */
+.other-header img {
+  width: 80%;
 }
 
 /* About MAS */
